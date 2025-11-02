@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="images/Logo_design_for__MIS-removebg-preview.ico">
+<link rel="stylesheet" href="css/home.css">
+<title>Misamis Occidental | Booking Webpage</title>
+</head>
+<body>
+<div id="loading-screen">
+  <img src="images/Logo_design_for__MIS-removebg-preview.png" alt="Logo" class="loading-logo">
+</div>
+
+<div id="Top-Home">
+  <video autoplay muted loop id="bg-video">
+    <source src="videos/Discover More Fun in Misamis Occidental.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+<!-- Gradient Overlays -->
+  <div id="home-top-gradient"></div>
+  <div id="home-bottom-gradient"></div>
+   <div id="home-top-left-gradient"></div>
+
+  <header id="top-nav-bar">
+    <nav>
+      <!-- Left: Logo + Search -->
+      <div class="left-nav">
+        <a href="home.html">
+          <img class="home-logo" src="images/Logo_design_for__MIS-removebg-preview.png" alt="logo">
+        </a>
+        <form class="search-form" action="#" method="get">
+          <input type="text" placeholder="Search..." name="q" oninput="location.href='#' + this.value.toLowerCase()">
+        </form>
+      </div>
+
+      <ul class="nav-right">
+      <li><a class="links" href="#Top-Home">Home</a></li>
+      <li><a class="links" href="#about">About</a></li>
+      <li><a class="links" href="#Destination">Destination</a></li>
+      <li><a class="links" href="#explore">Explore</a></li>
+      <li><a class="links" href="#Book">Book</a></li>
+      <li><a class="links" href="#contacts">Contacts</a></li>
+    </ul>
+    </nav>
+  </header>
+</div>
+<div id="top-home-content">
+        <h1>Welcome to</h1>
+        <img class="home" src="images/fnt-removebg-preview (1).png"logo-font">
+        <p>A province in Northern Mindanao, Misamis Occidental is home to rich culture, scenic landscapes, and warm, hospitable people. 
+            From the historic Cotta Fort and Tangub’s Christmas Symbols Festival to its fertile farms and sparkling bays, 
+            the province offers beauty, history, and adventure waiting to be discovered.</p>
+            <button>Book Now</button>
+        </a>
+    </div>
+
+
+<section id="about">
+  <div class="about-container">
+    <div class="about-text">
+      <h2>About Misamis Occidental</h2>
+      <p>
+        Misamis Occidental is a province in Northern Mindanao known for its breathtaking landscapes, rich cultural heritage, and warm, welcoming people. 
+        Nestled between the sparkling waters of Panguil and Iligan Bays and the rolling mountains inland, the province is blessed with both natural beauty and fertile lands. 
+        From the historic Cotta Fort in Ozamiz City, which stands as a reminder of the province’s vibrant past, to the stunning views of Panguil Bay and the world-renowned Christmas Symbols Festival in Tangub City, Misamis Occidental offers experiences that are truly unforgettable. 
+        Visitors can explore its diverse attractions, enjoy its agricultural abundance, and witness the hospitality of its people, making every journey to this province a meaningful and memorable adventure.
+      </p>
+    </div>
+
+    <div class="about-slideshow">
+      <div class="slides">
+        <img src="images/image1.jpg" alt="Tourist Spot 1">
+        <img src="images/image2.png" alt="Tourist Spot 2">
+        <img src="images/image5.jpg" alt="Tourist Spot 3">
+        <img src="images/image4.png" alt="Tourist Spot 4">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- DESTINATION SECTION -->
+<section id="Destination" class="destination">
+  <div class="destination-container">
+    <h2>EXPLORE OUR DESTINATION</h2>
+    <p>
+      Discover the beauty of Misamis Occidental — a province in Northern Mindanao 
+      known for its rich culture, natural wonders, and friendly people.
+    </p>
+    <div class="map-container">
+      <!-- Embedded Google Map (Misamis Occidental) -->
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15844.884915015907!2d123.72908483955078!3d8.163956024969608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x325581e9fef3f3f1%3A0x9d9d0438a7981c2f!2sMisamis%20Occidental!5e0!3m2!1sen!2sph!4v1705123456789"
+        width="100%" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<section id="explore">
+  <div class="explore-grid">
+    <!-- Card 1 -->
+    <div class="explore-card">
+      <img src="images/card1.jpg" alt="Cotta Fort">
+      <h3>Cotta Fort</h3>
+      <p>Historic Spanish-era fort with cultural and religious significance in Ozamiz City.</p>
+      <span class="price">Free</span>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="explore-card">
+      <img src="images/card2.jpg" alt="Pipe Beach Resort">
+      <h3>Pipe Beach Resort</h3>
+      <p>A popular seaside destination in Oroquieta known for its relaxing views and beach vibes.</p>
+      <span class="price">₱500 / person</span>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="explore-card">
+      <img src="images/card3.jpg" alt="Tangub Christmas Symbols">
+      <h3>Tangub Christmas Symbols</h3>
+      <p>Famous for its dazzling Christmas lights and displays every holiday season.</p>
+      <span class="price">₱100 / ticket</span>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="explore-card">
+      <img src="images/card4.jpeg" alt="Royal Garden Hotel">
+      <h3>Royal Garden Hotel</h3>
+      <p>Modern hotel in Ozamiz offering comfortable stays with great amenities and dining.</p>
+      <span class="price">₱1,800 / night</span>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="explore-card">
+      <img src="images/card5.jpg" alt="Hoyohoy Highland Stone Chapel">
+      <h3>Hoyohoy Highland Stone Chapel</h3>
+      <p>Breathtaking mountain views in Tangub City, perfect for nature lovers and hikers.</p>
+      <span class="price">₱50 / entrance</span>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="explore-card">
+      <img src="images/card6.jpg" alt="Ozamiz Seafood House">
+      <h3>Ozamiz Seafood House</h3>
+      <p>Known for fresh seafood dishes and a cozy dining atmosphere in the city.</p>
+      <span class="price">₱350 / meal</span>
+    </div>
+
+    <div class="explore-card">
+      <img src="images/card7.jpg" alt="Dr. Jose Rizal Memorial Park">
+      <h3>Dr. Jose Rizal Memorial Park</h3>
+      <p>Beautiful public park in Oroquieta, perfect for relaxation and family bonding.</p>
+      <span class="price">Free</span>
+    </div>
+
+       <div class="explore-card">
+      <img src="images/card8.jpg" alt="MisOcc Café">
+      <h3>MisOcc Café</h3>
+      <p>A cozy café offering local coffee blends and pastries, perfect for hangouts in Oroquieta.</p>
+      <span class="price">₱150 / coffee</span>
+    </div>
+  </div>
+</section>
+<section id="Book" class="book-section">
+  <h2>Begin Your Journey Today</h2>
+  <form class="book-form">
+    <label for="fullname">Full Name:</label>
+    <input type="text" id="fullname" name="fullname" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required>
+
+<label for="category">Destination:</label>
+<select id="category" name="category" required>
+  <option value="">-- Select a Category --</option>
+  <option value="beaches">Beaches & Islands</option>
+  <option value="nature">Nature & Adventure</option>
+  <option value="cultural">Cultural & Historical Sites</option>
+  <option value="hotels">Hotels & Resorts</option>
+</select>
+
+
+    <label for="date">Preferred Date of Travel:</label>
+    <input type="date" id="date" name="date" required>
+
+    <label for="guests">Number of Guests:</label>
+    <input type="number" id="guests" name="guests" min="1" required>
+
+    <label for="notes">Additional Notes (optional):</label>
+    <textarea id="notes" name="notes" rows="3"></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<!-- CONTACTS SECTION -->
+<section id="contacts" class="contacts">
+  <div class="contacts-container">
+
+     <h2>Start Your Conversation</h2>
+    <!-- LEFT SIDE -->
+    <div class="contacts-left">
+      <h2>We’d Love to Hear From You</h2>
+      <p>If you have inquiries about travel, destinations, or bookings in Misamis Occidental, feel free to reach us through the following:</p>
+      
+      <div class="contact-buttons">
+        <a href="mailto:lyngrcsntlln@gmail.com" class="contact-btn">📧 Contact Us via Email</a>
+        <a href="tel:09123455678" class="contact-btn">📞 Reach Us by Phone</a>
+        <a href="https://www.google.com/maps/place/Misamis+Occidental/" target="_blank" class="contact-btn">📍 View Our Location</a>
+      </div>
+    </div>
+    
+    <!-- RIGHT SIDE -->
+    <div class="contacts-right">
+      <p><strong>Address:</strong><br>Capitol Drive, Lower Lamac, Oroquieta City, 7207 Misamis Occidental, Philippines</p>
+      <p><strong>Contact Number:</strong><br> 09123455678 | Alyanna Grace</p>
+      <p><strong>Email Address:</strong><br> lyngrcsntlln@gmail.com</p>
+      
+<div class="social-icons">
+  <a href="https://www.facebook.com/Lynngrcsntlln18" class="social fb">
+    <img src="images/facebook_new_logo_white-removebg-preview.png" alt="Facebook">
+  </a>
+  <a href="https://www.instagram.com/lynngrc18/" class="social ig">
+    <img src="images/white-instagram-icon-instagram-logo-instagram-instagram-icon-white-11553385558clvu7hxuql-removebg-preview.png" alt="Instagram">
+  </a>
+  <a href="https://tiktok.com/@lynnsntlln" class="social tk">
+    <img src="images/4768645-middle-removebg-preview.png" alt="TikTok">
+  </a>
+</div>
+
+    </div>
+    
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-left">
+    <p>&copy; 2025 Misamis Occidental Tourism. All Rights Reserved.</p>
+  </div>
+
+  <div class="footer-right">
+    <a href="terms.html">Terms & Conditions</a>
+    <span>|</span>
+    <a href="privacy.html">Privacy Policy</a>
+  </div>
+</footer>
+
+</body>
+</html>
